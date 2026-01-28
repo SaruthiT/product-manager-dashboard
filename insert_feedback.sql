@@ -1,0 +1,16 @@
+INSERT INTO feedback (user, comment, source, sentiment, timestamp) VALUES
+('Alice', 'Love the new dashboard UI!', 'Customer Support Tickets', 'positive', strftime('%s','now')),
+('Bob', 'The app is slow and crashes sometimes', 'Discord', 'negative', strftime('%s','now')),
+('Charlie', 'Works fine but could use more features', 'GitHub issues', 'neutral', strftime('%s','now')),
+('David', 'Excellent support', 'email', 'positive', strftime('%s','now')),
+('Eve', 'UI is confusing', 'X/Twitter', 'negative', strftime('%s','now')),
+('Frank', 'Great new features', 'Product Hive', 'positive', strftime('%s','now')),
+('Grace', 'Some bugs on login', 'Discord', 'negative', strftime('%s','now')),
+('Heidi', 'Love the design', 'GitHub issues', 'positive', strftime('%s','now')),
+('Ivan', 'App crashes on startup', 'Customer Support Tickets', 'negative', strftime('%s','now')),
+('Judy', 'Could be faster', 'email', 'neutral', strftime('%s','now')),
+('Mallory', 'Feature request: dark mode', 'Product Hive', 'neutral', strftime('%s','now')),
+('Niaj', 'Very responsive team', 'X/Twitter', 'positive', strftime('%s','now')),
+('Olivia', 'Onboarding is confusing', 'Discord', 'negative', strftime('%s','now')),
+('Peggy', 'Good performance', 'Customer Support Tickets', 'positive', strftime('%s','now')),
+('Trent', 'Missing export feature', 'GitHub issues', 'neutral', strftime('%s','now'));
